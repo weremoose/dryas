@@ -23,7 +23,7 @@ build:
   steps:
    - arjen/hugo-build@1.8.4:
         version: "0.15"
-        theme: hugo-strata-theme
+        theme: casper
       # config: dryas-configuration.toml
         flags: --buildDrafts=true
 
