@@ -2,7 +2,7 @@
 # Docker Hub https://registry.hub.docker.com/_/debian/
 # Read more about containers on our dev center
 # http://devcenter.wercker.com/docs/containers/index.html
-box: wercker/golang
+box: debian
 # You can also use services such as databases. Read more on our dev center:
 # http://devcenter.wercker.com/docs/services/index.html
 # services:
@@ -24,7 +24,7 @@ build:
    - arjen/hugo-build@1.8.4:
         version: "0.15"
         theme: hugo-strata-theme
-      # config: config.toml
+        config: config.toml
         flags: --buildDrafts=true
 
 deploy:
