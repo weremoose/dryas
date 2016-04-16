@@ -1,4 +1,4 @@
-BaseUrl= "http://dryas.eu/"
+BaseUrl= "http://weremoose.github.io/dryas/"
 LanguageCode= "gr-GR"
 Title= "δρυάς"
 paginate = 5
@@ -6,6 +6,7 @@ DisqusShortname = "YOUR_SHORT_NAME_HERE"
 Copyright = "Copyright ©2016 Σωματείο Μη Κερδοσκοπικό | Σ.Σ. Τεμπών | Τ.Κ. 40004 – Γόννοι | τηλ.: 24950 93380 "
 canonifyurls = true
 theme = "casper"
+publishdir = "public"
 
 [params]
   description = "σωματείο για το περιβάλλον και τον πολιτισμό"
